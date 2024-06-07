@@ -15,8 +15,8 @@ public class Principal {
         miPelicula.evalua(7.8);
 
         miPelicula.muestraFicvhaTecnica();
-        System.out.println("Nota promedio es de: " + miPelicula.sumaEvaluaciones);
-        System.out.println(miPelicula.totalEvaluaciones);
+//        System.out.println("Nota promedio es de: " + miPelicula.sumaEvaluaciones);
+//        System.out.println(miPelicula.totalEvaluaciones);
         System.out.println(miPelicula.calcula());
 
         System.out.println("**********************");
