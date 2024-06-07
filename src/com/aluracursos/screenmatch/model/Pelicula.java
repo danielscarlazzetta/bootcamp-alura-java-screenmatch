@@ -1,6 +1,8 @@
 package com.aluracursos.screenmatch.model;
 
-public class Pelicula extends Titulo {
+import com.aluracursos.screenmatch.calculos.Clasificacion;
+
+public class Pelicula extends Titulo implements Clasificacion {
 
     private String director;
 
@@ -13,4 +15,8 @@ public class Pelicula extends Titulo {
         return director;
     }
 
+    @Override
+    public int getClasificacion() {
+        return (int) (calcula()/2);
+    }
 }
